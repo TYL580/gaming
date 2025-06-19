@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #7fff00;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #7fff00;
+  }
+  
+  img {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #555;
+  }
+  
+  form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #7fff00;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #6ecc00;
+  }
+  #form {
+    text-align: center;
+  }
+  #reaction-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #like-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #18e43d;
+    border-radius: 10px;
+    cursor: pointer;
+  }
